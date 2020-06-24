@@ -51,8 +51,8 @@ source_suffix = '.rst'
 # a list of builtin themes.
 #
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-#html_theme_path = os.path.join(BASE_DIR, 'pynotes')
-html_theme_path = [os.path.join(BASE_DIR, '')]
+html_theme_path = os.path.join(BASE_DIR, '')
+#html_theme_path = [os.path.join(BASE_DIR, '')]
 print(html_theme_path)
 html_theme = 'sphinx_typo3_theme'
 
