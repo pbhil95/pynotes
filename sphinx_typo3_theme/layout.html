@@ -208,7 +208,7 @@
                             </div>
                         </div>
                         <div class="toc-collapse">
-                            {%- if not theme_is_homepage and builder == 'html' %}
+                            {%- if not theme_is_homepage %}
                             <!-- searchbox.html -->
                             {%- include "searchbox.html" %}
                             <!-- /searchbox.html -->
@@ -284,8 +284,13 @@
             URL_ROOT: '{{ url_root }}',
             VERSION: '{{ release|e }}',
             COLLAPSE_INDEX: false,
-            FILE_SUFFIX: '{{ '' if no_search_suffix else file_suffix }}',
-            HAS_SOURCE: {{ has_source | lower }}
+            FILE_SUFFIX: '{{ '
+            ' if no_search_suffix else file_suffix }}',
+            HAS_SOURCE: {
+                {
+                    has_source | lower
+                }
+            }
         };
     </script>
     <script type="text/javascript" src="{{ pathto('_static/js/jquery.min.js', 1) }}"></script>
