@@ -279,20 +279,7 @@
         </div>
     </div>
     {% if not embedded %}
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT: '{{ url_root }}',
-            VERSION: '{{ release|e }}',
-            COLLAPSE_INDEX: false,
-            FILE_SUFFIX: '{{ '
-            ' if no_search_suffix else file_suffix }}',
-            HAS_SOURCE: {
-                {
-                    has_source | lower
-                }
-            }
-        };
-    </script>
+    {% include "srch.html" %}
     <script type="text/javascript" src="{{ pathto('_static/js/jquery.min.js', 1) }}"></script>
     <script type="text/javascript" src="{{ pathto('_static/js/underscore.min.js', 1) }}"></script>
     <script type="text/javascript" src="{{ pathto('_static/js/doctools.min.js', 1) }}"></script>
@@ -322,10 +309,6 @@
     <!-- footer2 -->
     {%- block footer2 %}{% endblock -%}
     <!-- /footer2 -->
-    {%- if theme_docstypo3org %}
-    <script type="application/javascript" src="https://app.usercentrics.eu/latest/main.js" id="R9wBKTwzv"></script>
-    <script type="text/plain" data-usercentrics="Matomo" src="/js/piwik.js"></script>
-    {%- endif %}
     <script>
         let scrollButton = document.getElementById("scroll");
 
