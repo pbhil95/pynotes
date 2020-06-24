@@ -208,11 +208,6 @@
                             </div>
                         </div>
                         <div class="toc-collapse">
-                            {%- if not theme_is_homepage %}
-                            <!-- searchbox.html -->
-                            {%- include "searchbox.html" %}
-                            <!-- /searchbox.html -->
-                            {%- endif %}
                             <div class="toc" role="navigation" aria-label="main navigation">
                                 <!-- menu -->
                                 {%- block menu %}
@@ -228,6 +223,11 @@
                                 <!-- /menu -->
                             </div>
                         </div>
+                        {%- if not theme_is_homepage %}
+                        <!-- searchbox.html -->
+                        {%- include "searchbox.html" %}
+                        <!-- /searchbox.html -->
+                        {%- endif %}
                     </nav>
                 </div>
                 <div class="page-main-content">

@@ -11767,7 +11767,7 @@ a.text-dark:focus {
 
 .toc-search {
     margin-top: 1rem;
-    margin-bottom: 2rem
+    /* margin-bottom: 2rem */
 }
 
 .toc-backref {
