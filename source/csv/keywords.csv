@@ -1,0 +1,28 @@
+:ref:`and`,A logical operator
+:ref:`as`,To create an alias
+:ref:`assert`,For debugging
+:ref:`async`,write concurrent code in Python 
+:ref:`break`,To break out of a loop
+:ref:`class`,To define a class
+:ref:`continue`,To continue to the next iteration of a loop
+:ref:`def`,To define a function
+:ref:`del`,To delete an object
+:ref:`except`,"Used with exceptions, what to do when an exception occurs"
+:ref:`finally`,"Used with exceptions, a block of code that will be executed no matter if there is an exception or not"
+:ref:`for`,To create a for loop
+:ref:`global`,To declare a global variable
+:ref:`if`,To make a conditional statement
+:ref:`import`,To import a module
+:ref:`in`,"To check if a value is present in a list, tuple, etc."
+:ref:`is`,To test if two variables are equal
+:ref:`lambda`,To create an anonymous function
+:ref:`None`,Represents a null value
+:ref:`nonlocal`,To declare a non-local variable
+:ref:`not`,A logical operator
+:ref:`or`,A logical operator
+:ref:`pass`,"A null statement, a statement that will do nothing"
+:ref:`return`,To exit a function and return a value
+:ref:`true`,"Boolean value, result of comparison operations"
+:ref:`while`,To create a while loop
+:ref:`with`,Used to simplify exception handling
+:ref:`yield`,"To end a function, returns a generator"

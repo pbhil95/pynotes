@@ -5,7 +5,11 @@ Welcome to pynotes's
    :maxdepth: 1
    :caption: Contents:
 
-   Operators/PythonOperators
+   Basics/PyBasics
+   Basics/PythonOperators
+   Basics/StringFormating
+   Basics/VariableAssignment
+   Basics/Keywords
 
 
 Indices and tables
