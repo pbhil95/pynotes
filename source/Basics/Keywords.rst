@@ -473,7 +473,7 @@ In Python we can use it with any type of sequences like a list or a string. Here
 from, import
 -------------
 
-import keyword is used to import modules into the current namespace. from…import is used to import specific attributes or functions into the current namespace. For example:
+**import keyword is used to import modules into the current namespace. from…import is used to import specific attributes or functions into the current namespace.** For example:
 
 >>> import math
 
@@ -492,7 +492,7 @@ global is used to declare that a variable inside the function is global (outside
 
 If we need to read the value of a global variable, it is not necessary to define it as global. This is understood.
 
-If we need to modify the value of a global variable inside a function, then we must declare it with global. Otherwise, a local variable with that name is created.
+**If we need to modify the value of a global variable inside a function, then we must declare it with global. Otherwise, a local variable with that name is created.**
 
 Following example will help us clarify this.
 
@@ -530,7 +530,7 @@ Hence, a new local variable globvar is created which is not visible outside this
 in
 ---
 
-in is used to test if a sequence (list, tuple, string etc.) contains a value. It returns True if the value is present, else it returns False. For example:
+**in is used to test if a sequence (list, tuple, string etc.) contains a value.** It returns True if the value is present, else it returns False. For example:
 
     >>> a = [1, 2, 3, 4, 5]
     >>> 5 in a
@@ -580,7 +580,7 @@ We know that there is only one instance of True, False and None in Python, so th
     >>> {} is {}
     False
 
-An empty list or dictionary is equal to another empty one. But they are not identical objects as they are located separately in memory. This is because list and dictionary are mutable (value can be changed).
+**An empty list or dictionary is equal to another empty one. But they are not identical objects as they are located separately in memory.** This is because *list and dictionary are mutable* (value can be changed).
 
     >>> '' == ''
     True
@@ -591,14 +591,14 @@ An empty list or dictionary is equal to another empty one. But they are not iden
     >>> () is ()
     True
 
-Unlike list and dictionary, string and tuple are immutable (value cannot be altered once defined). Hence, two equal string or tuple are identical as well. They refer to the same memory location.
+Unlike list and dictionary, *string and tuple are immutable* (value cannot be altered once defined). Hence, two equal string or tuple are identical as well. They refer to the same memory location.
 
 .. _lambda:
 
 lambda
 -------
 
-lambda is used to create an anonymous function (function with no name). It is an inline function that does not contain a return statement. It consists of an expression that is evaluated and returned. For example:
+**lambda is used to create an anonymous function (function with no name).** It is an inline function that does not contain a return statement. It consists of an expression that is evaluated and returned. For example:
 
 .. code-block:: python
     :caption: Python
@@ -621,7 +621,7 @@ Here, we have created an inline function that doubles the value, using the lambd
 nonlocal
 ----------
 
-The use of nonlocal keyword is very much similar to the global keyword. nonlocal is used to declare that a variable inside a nested function (function inside a function) is not local to it, meaning it lies in the outer inclosing function. If we need to modify the value of a non-local variable inside a nested function, then we must declare it with nonlocal. Otherwise a local variable with that name is created inside the nested function. Following example will help us clarify this.
+**The use of nonlocal keyword is very much similar to the global keyword.** nonlocal is used to declare that a variable inside a nested function (function inside a function) is not local to it, meaning it lies in the outer inclosing function. If we need to modify the value of a non-local variable inside a nested function, then we must declare it with nonlocal. Otherwise a local variable with that name is created inside the nested function. Following example will help us clarify this.
 
 .. code-block:: python
     :caption: Python
@@ -671,7 +671,7 @@ Here, we do not declare that the variable a inside the nested function is nonloc
 pass
 ------
 
-pass is a null statement in Python. Nothing happens when it is executed. It is used as a placeholder.
+**pass is a null statement in Python. Nothing happens when it is executed.** It is used as a placeholder.
 
 Suppose we have a function that is not implemented yet, but we want to implement it in the future. Simply writing,
 
@@ -701,7 +701,7 @@ We can do the same thing in an empty class as well.
 return
 --------
 
-return statement is used inside a function to exit it and return a value.
+**return statement is used inside a function to exit it and return a value.**
 
 If we do not return a value explicitly, None is returned automatically. This is verified with the following example.
 
@@ -727,7 +727,7 @@ If we do not return a value explicitly, None is returned automatically. This is 
 while
 ------
 
-while is used for looping in Python.
+**while is used for looping in Python.**
 
 The statements inside a while loop continue to execute until the condition for the while loop evaluates to False or a break statement is encountered. Following program illustrates this.
 
@@ -755,7 +755,7 @@ with
 
 with statement is used to wrap the execution of a block of code within methods defined by the context manager.
 
-Context manager is a class that implements __enter__ and __exit__ methods. Use of with statement ensures that the __exit__ method is called at the end of the nested block. This concept is similar to the use of try…finally block. Here, is an example.
+Context manager is a class that implements :keyword:`__enter__` and :keyword:`__exit__` methods. Use of with statement ensures that the :keyword:`__exit__` method is called at the end of the nested block. This concept is similar to the use of try…finally block. Here, is an example.
 
 .. code-block:: python
     :caption: Python
@@ -763,16 +763,16 @@ Context manager is a class that implements __enter__ and __exit__ methods. Use o
     with open('example.txt', 'w') as my_file:
         my_file.write('Hello world!')
 
-This example writes the text Hello world! to the file example.txt. File objects have __enter__ and __exit__ method defined within them, so they act as their own context manager.
+This example writes the text Hello world! to the file example.txt. File objects have :keyword:`__enter__` and :keyword:`__exit__` method defined within them, so they act as their own context manager.
 
-First the __enter__ method is called, then the code within with statement is executed and finally the __exit__ method is called. __exit__ method is called even if there is an error. It basically closes the file stream.
+First the :keyword:`__enter__` method is called, then the code within with statement is executed and finally the :keyword:`__exit__` method is called. :keyword:`__exit__` method is called even if there is an error. It basically closes the file stream.
 
 .. _yield:
 
 yield
 --------
 
-yield is used inside a function like a return statement. But yield returns a generator.
+**yield is used inside a function like a return statement. But yield returns a generator.**
 
 Generator is an iterator that generates one item at a time. A large list of values will take up a lot of memory. Generators are useful in this situation as it generates only one value at a time instead of storing all the values in memory. For example,
 
