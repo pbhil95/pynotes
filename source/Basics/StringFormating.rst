@@ -10,6 +10,8 @@ At the end of this chapter the students will be able to understand:
 * :ref:`1-formatting-using-percentage-symbol`
 * :ref:`2-str.format()`
 * :ref:`3-f-Strings`
+* :ref:`Speed-comparison`
+* :ref:`Formatting-Types`
 
 .. _1-formatting-using-percentage-symbol:
 
@@ -115,6 +117,8 @@ You can have multiline strings:
     >>> message
     'Hi Eric. You are a comedian. You were in Monty Python.'
 
+.. _Speed-comparison:
+
 Speed comparison
 =================
 
@@ -165,7 +169,64 @@ If you are going to use single quotation marks for the keys of the dictionary, t
     The comedian is Eric Idle, aged 74.
 
 
+.. _Formatting-Types:
 
+Formatting Types
+====================
 
+.. csv-table::
+   :header: Type,Description
+   :widths: 20, 80
+   :file: ../csv/formmatingtypes.csv
+   :align: center 
 
+.. _`:<`:
+
+:<
+---
+
+>>> txt = "We have {:<8} chickens."
+>>> print(txt.format(49))
+
+Output:
+
+>>> We have 49       chickens.
+
+.. _`:+`:
+
+:+
+---
+
+>>> txt = "The temperature is between {:+} and {:+} degrees celsius."
+
+>>> print(txt.format(-3, 7))
+
+Output:
+
+>>> The temperature is between -3 and +7 degrees celsius.
+
+.. _`:o`:
+
+:o
+---
+
+>>> txt = "The octal version of {0} is {0:o}"
+
+>>> print(txt.format(10))
+
+Output:
+
+>>> The octal version of 10 is 12 
+
+.. _`:f`:
+
+:f
+---
+
+>>> txt = "The price is {:.2f} dollars."
+>>> print(txt.format(45))
+
+Output:
+
+>>> The price is 45.00 dollars.
 
