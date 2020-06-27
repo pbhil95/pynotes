@@ -10,6 +10,7 @@ Welcome to pynotes's
    Basics/StringFormating
    Basics/VariableAssignment
    Basics/Keywords
+   Basics/inbuitFunctions
 
 
 Indices and tables
