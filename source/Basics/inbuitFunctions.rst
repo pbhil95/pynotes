@@ -184,6 +184,7 @@ Functions :
           @classmethod
           def f(cls, arg1, arg2, ...): ...
 
+.. seealso:: To learn more about static ,class and instance methods see :doc:`../Class/Static_Instance_ClassMethods`
 
 .. function:: compile(source, filename, mode, flags=0, dont_inherit=False, optimize=-1)
 
@@ -851,28 +852,11 @@ Functions :
 
       class C:
           @staticmethod
-          def f(arg1, arg2, ...): ...
+          def f(arg1, arg2, ...):
+          .....
 
-   The ``@staticmethod`` form is a function `decorator` -- see
-   `function` for details.
+.. seealso:: To learn more about static ,class and instance methods see :doc:`../Class/Static_Instance_ClassMethods`
 
-   A static method can be called either on the class (such as ``C.f()``) or on an instance (such
-   as ``C().f()``).
-
-   Static methods in Python are similar to those found in Java or C++. Also see
-   :func:`classmethod` for a variant that is useful for creating alternate class
-   constructors.
-
-   Like all decorators, it is also possible to call ``staticmethod`` as
-   a regular function and do something with its result.  This is needed
-   in some cases where you need a reference to a function from a class
-   body and you want to avoid the automatic transformation to instance
-   method.  For these cases, use this idiom::
-
-      class C:
-          builtin_open = staticmethod(open)
-
-   For more information on static methods, see `types`.
 
 .. _func-str:
 .. class:: str(object='')

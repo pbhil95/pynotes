@@ -11,6 +11,7 @@ Welcome to pynotes's
    Basics/VariableAssignment
    Basics/Keywords
    Basics/inbuitFunctions
+   Class/Static_Instance_ClassMethods
 
 
 Indices and tables
