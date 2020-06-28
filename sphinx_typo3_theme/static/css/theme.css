@@ -12727,11 +12727,11 @@ table.docutils.field-list .field-name {
   margin: 0 0 1rem 2rem;
 }
 
-.rst-content dl:not(.docutils) {
+.rst-content dl {
   margin-bottom: 1rem;
 }
 
-.rst-content dl:not(.docutils) dt {
+.rst-content dl dt {
   display: inline-block;
   font-size: 90%;
   padding: 0.25em 0.5em;
@@ -12742,30 +12742,30 @@ table.docutils.field-list .field-name {
   color: #4592a9;
 }
 
-.rst-content dl:not(.docutils) dl dt {
+.rst-content dl dl dt {
   border-top: 2px solid #b8b8b8;
   background-color: #f2f2f2;
   color: #212121;
 }
 
-.rst-content dl:not(.docutils) tt,
-.rst-content dl:not(.docutils) code {
+.rst-content dl tt,
+.rst-content dl code {
   background-color: transparent;
   border: none;
   padding: 0;
   font-size: 100%;
 }
 
-.rst-content dl:not(.docutils) .optional {
+.rst-content dl .optional {
   padding: 0 0.25em;
 }
 
-.rst-content dl:not(.docutils) .headerlink,
-.rst-content dl:not(.docutils) .optional {
+.rst-content dl .headerlink,
+.rst-content dl .optional {
   color: #212121;
 }
 
-.rst-content dl:not(.docutils) .viewcode-link {
+.rst-content dl .viewcode-link {
   padding-left: 1em;
 }
 
