@@ -826,8 +826,6 @@ Functions :
 .. class:: slice(stop)
            slice(start, stop[, step])
 
-   .. index:: single: Numerical Python
-
    Return a `slice` object representing the set of indices specified by
    ``range(start, stop, step)``.  The *start* and *step* arguments default to
    ``None``.  Slice objects have read-only data attributes :attr:`~slice.start`,

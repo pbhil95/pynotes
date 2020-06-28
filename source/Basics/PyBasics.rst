@@ -11,6 +11,8 @@ At the end of this chapter the students will be able to understand:
 * :ref:`script-mode`
 * :ref:`Python-Scripts-Using-the-Command-Line`
 
+.. index::
+   single: Interactive Mode
 
 .. _interactive-mode:
 
@@ -26,6 +28,9 @@ output of it::
        Type "help", "copyright", "credits" or "license" for more information.
        >>>3+4
        7
+
+.. index::
+   single: Script Mode
 
 .. _script-mode:
 
