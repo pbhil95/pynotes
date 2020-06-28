@@ -2,7 +2,7 @@
 Python Dictionary
 =====================
 
-.. index::
+.. index:: ! Dictionary
     single : Dictionary
 
 Dictionary
