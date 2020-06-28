@@ -12997,3 +12997,7 @@ ul[class*="horizbuttons-"][class*="-striking-"]>li {
   padding-bottom: 10px;
   margin-bottom: 30px;
 }
+
+.rst-content .line-block {
+  margin-bottom: 0px;
+}
