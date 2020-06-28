@@ -1,7 +1,7 @@
-def debugger(a, b):
-    breakpoint()
-    result = a / b
-    return result
-
-
-print(debugger(5, 0))
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+thisdict.pop("model")
+print(thisdict)

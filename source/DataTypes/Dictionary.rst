@@ -20,10 +20,10 @@ dictionaries are written with curly brackets, and they have keys and values.
     }
     print(thisdict)
 
-Output:
-::
+.. container:: outputs
 
-    {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+        | **OUTPUT :**
+        | {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 
 Accessing Items
 -----------------
@@ -44,6 +44,7 @@ Change Values
 ---------------
 
 You can change the value of a specific item by referring to its key name:
+
 ::
 
     # Change the "year" to 2018:
@@ -54,6 +55,7 @@ You can change the value of a specific item by referring to its key name:
     }
     thisdict["year"] = 2018
 
+
 Loop Through a Dictionary
 --------------------------
 
@@ -62,28 +64,57 @@ When looping through a dictionary, the return value are the keys of the dictiona
 are methods to return the values as well.
 
 Print all key names in the dictionary, one by one:
-    ::
+
+::
 
         for x in thisdict:
         print(x)
 
+.. container:: outputs
+
+        | **OUTPUT :**
+        | brand
+        | model
+        | year
+
+
 Print all values in the dictionary, one by one:
-    ::
+
+::
 
         for x in thisdict:
         print(thisdict[x])
 
+.. container:: outputs
+
+        | **OUTPUT :**
+        | Ford
+        | Mustang
+        | 1964
+
+
 You can also use the values() method to return values of a dictionary:
-    ::
+
+::
 
         for x in thisdict.values():
         print(x)
 
+
 Loop through both keys and values, by using the items() method:
-    ::
+
+::
 
         for x, y in thisdict.items():
         print(x, y)
+
+.. container:: outputs
+
+        | **OUTPUT :**
+        | brand Ford
+        | model Mustang
+        | year 1964
+
 
 Check if Key Exists
 ---------------------
@@ -101,6 +132,12 @@ To determine if a specified key is present in a dictionary use the in keyword:
     if "model" in thisdict:
     print("Yes, 'model' is one of the keys in the thisdict dictionary")
 
+.. container:: outputs
+
+        | **OUTPUT :**
+        | Yes, 'model' is one of the keys in the thisdict dictionary
+
+
 Dictionary Length
 ----------------------
 
@@ -110,10 +147,16 @@ To determine how many items (key-value pairs) a dictionary has, use the len() fu
     Print the number of items in the dictionary:
     print(len(thisdict))
 
+.. container:: outputs
+
+        | **OUTPUT :**
+        | 3
+
 Adding Items
 -------------
 
 Adding an item to the dictionary is done by using a new index key and assigning a value to it:
+
 ::
 
     thisdict = {
@@ -124,13 +167,20 @@ Adding an item to the dictionary is done by using a new index key and assigning 
     thisdict["color"] = "red"
     print(thisdict)
 
+.. container:: outputs
+
+        | **OUTPUT :**
+        | {'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'red'}
+
+
 Removing Items
 ------------------
 
 There are several methods to remove items from a dictionary:
 
 The :func:`pop()` method removes the item with the specified key name:
-    ::
+
+::
 
         thisdict = {
         "brand": "Ford",
@@ -140,8 +190,15 @@ The :func:`pop()` method removes the item with the specified key name:
         thisdict.pop("model")
         print(thisdict)
 
+.. container:: outputs
+
+        | **OUTPUT :**
+        | {'brand': 'Ford', 'year': 1964}
+
+
 The :func:`popitem()` method removes the last inserted item (in versions before 3.7, a random item is removed instead):
-    ::
+
+::
 
         thisdict = {
         "brand": "Ford",
@@ -151,8 +208,15 @@ The :func:`popitem()` method removes the last inserted item (in versions before 
         thisdict.popitem()
         print(thisdict)
 
+.. container:: outputs
+
+        | **OUTPUT :**
+        | {'brand': 'Ford', 'year': 1964}
+
+
 The del keyword removes the item with the specified key name:
-    ::
+
+::
 
         thisdict = {
         "brand": "Ford",
@@ -162,8 +226,15 @@ The del keyword removes the item with the specified key name:
         del thisdict["model"]
         print(thisdict)
 
+.. container:: outputs
+
+        | **OUTPUT :**
+        | {'brand': 'Ford', 'year': 1964}
+
+
 The :keyword:`del` keyword can also delete the dictionary completely:
-    ::
+
+::
 
         thisdict = {
         "brand": "Ford",
@@ -172,10 +243,16 @@ The :keyword:`del` keyword can also delete the dictionary completely:
         }
         del thisdict
         print(thisdict)
-        #this will cause an error because "thisdict" no longer exists.
+
+.. container:: outputs
+
+        | **OUTPUT :**
+        | This will cause an error because "thisdict" no longer exists.
+
 
 The :func:`clear()` method empties the dictionary:
-    ::
+
+::
 
         thisdict = {
         "brand": "Ford",
@@ -184,6 +261,12 @@ The :func:`clear()` method empties the dictionary:
         }
         thisdict.clear()
         print(thisdict)
+
+.. container:: outputs
+
+        | **OUTPUT :**
+        | {}
+
 
 Copy a Dictionary
 --------------------
@@ -203,6 +286,12 @@ There are ways to make a copy, one way is to use the built-in Dictionary method 
     mydict = thisdict.copy()
     print(mydict)
 
+.. container:: outputs
+
+        | **OUTPUT :**
+        | {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+
+
 Another way to make a copy is to use the built-in function dict() .
 ::
 
@@ -214,6 +303,7 @@ Another way to make a copy is to use the built-in function dict() .
     }
     mydict = dict(thisdict)
     print(mydict)
+
 
 Nested Dictionaries
 --------------------
@@ -271,6 +361,11 @@ It is also possible to use the dict() constructor to make a new dictionary:
     # note that keywords are not string literals
     # note the use of equals rather than colon for the assignment
     print(thisdict)
+
+.. container:: outputs
+
+        | **OUTPUT :**
+        | {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 
 Dictionary Methods
 --------------------
