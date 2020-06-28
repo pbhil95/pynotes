@@ -12,6 +12,7 @@ Welcome to pynotes's
    Basics/Keywords
    Basics/inbuitFunctions
    Class/Static_Instance_ClassMethods
+   DataTypes/Dictionary
 
 
 Indices and tables

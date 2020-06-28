@@ -110,7 +110,7 @@ Functions :
    This function drops you into the debugger at the call site.
 
    .. code-block:: python
-    :caption: Python
+      :caption: Python
 
       def debugger(a, b): 
 	   breakpoint() 
@@ -130,12 +130,12 @@ Functions :
       result = a / b
       ZeroDivisionError: division by zero
 
-.. note:: Commands for debugging :
+   .. note:: Commands for debugging :
 
-   * c -> continue execution
-   * q -> quit the debugger/execution
-   * n -> step to next line within the same function
-   * s -> step to next line in this function or a called function
+      * c -> continue execution
+      * q -> quit the debugger/execution
+      * n -> step to next line within the same function
+      * s -> step to next line in this function or a called function
 
 
 
@@ -184,7 +184,7 @@ Functions :
           @classmethod
           def f(cls, arg1, arg2, ...): ...
 
-.. seealso:: To learn more about static ,class and instance methods see :doc:`../Class/Static_Instance_ClassMethods`
+   .. seealso:: To learn more about static ,class and instance methods see :doc:`../Class/Static_Instance_ClassMethods`
 
 .. function:: compile(source, filename, mode, flags=0, dont_inherit=False, optimize=-1)
 
@@ -192,6 +192,22 @@ Functions :
    by :func:`exec` or :func:`eval`.  *source* can either be a normal string, a
    byte string, or an AST object.  Refer to the :mod:`ast` module documentation
    for information on how to work with AST objects.
+
+   .. code-block:: python
+      :caption: Python
+
+      srcCode = 'x = 10\ny = 20\nmul = x * y\nprint("mul =", mul)'
+      execCode = compile(srcCode, 'mulstring', 'exec') 
+      exec(execCode) 
+
+      Output:
+      mul = 200
+
+   .. important::
+      
+      1. If the Python code is in string form or is an AST object, and you want to change it to a code object, then you can use compile() method.
+      2. The code object returned by the compile() method can later be called using methods like: exec() and eval() which will execute dynamically generated Python code.
+
 
    .. note::
 
@@ -217,7 +233,7 @@ Functions :
    :class:`int` and :class:`float`.  If both arguments are omitted, returns
    ``0j``.
 
-   .. note::
+.. note::
 
       When converting from a string, the string must not contain whitespace
       around the central ``+`` or ``-`` operator.  For example,
@@ -234,6 +250,17 @@ Functions :
 
 .. _func-dict:
 .. class:: dict(**kwarg)
+
+   Python dictionary is an unordered collection of items. Each item of a dictionary has a key/value pair.
+   ::
+
+      my_dict = {'name': 'John', 1: [2, 4, 3]}
+   
+   .. seealso::
+
+      :doc:`../DataTypes/Dictionary`
+
+
           
 .. function:: dir([object])
 

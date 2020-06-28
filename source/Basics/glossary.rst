@@ -2,12 +2,17 @@
 
 .. glossary::
 
-   environment
-      A structure where information about all documents under the root is
-      saved, and used for cross-referencing.  The environment is pickled
-      after the parsing stage, so that successive runs only need to read
-      and parse new and changed documents.
+  Dictionary
+   A dictionary is a collection which is unordered, changeable and indexed. In Python
+   dictionaries are written with curly brackets, and they have keys and values.
+   Create and print a dictionary:
+   
+   .. code-block:: python
+    :caption: Python
 
-   source directory
-      The directory which, including its subdirectories, contains all
-      source files for one Sphinx project.
+      thisdict = {
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 1964
+      }
+      print(thisdict)
