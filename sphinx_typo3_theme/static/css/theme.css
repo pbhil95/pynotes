@@ -95,6 +95,8 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 abbr[title],
@@ -573,9 +575,9 @@ pre code {
 }
 
 .container {
-  width: 100%;
-  padding-right: 20px;
-  padding-left: 20px;
+  max-width: 95%;
+  /* padding-right: 20px;
+  padding-left: 20px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -11919,6 +11921,8 @@ div[class^="highlight-"] pre {
   color: white;
   background: #7e977a;
   padding-left: 5px;
+  max-width: 95%;
+  margin: auto;
 }
 
 .hll {
@@ -12985,10 +12989,13 @@ ul[class*="horizbuttons-"][class*="-striking-"]>li {
 
 .output {
   background-color: #c7d3dd;
-  margin-left: 20px;
-  max-width: 95%;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
 }
 
 .outputs {
@@ -12996,6 +13003,16 @@ ul[class*="horizbuttons-"][class*="-striking-"]>li {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 30px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+}
+
+.highlight {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .rst-content .line-block {
