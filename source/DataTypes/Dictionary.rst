@@ -108,7 +108,7 @@ Print all values in the dictionary, one by one:
 
 You can also use the values() method to return values of a dictionary:
 
-.. function:: dictionary_name.values()
+.. function:: d_nm.values()
 
 ::
 

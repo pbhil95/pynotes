@@ -3,7 +3,7 @@
 :func:`pop()`,Removes and returns an element from a dictionary having the given key.
 :func:`popitem()`,Removes the arbitrary key-value pair from the dictionary and returns it as tuple.
 :func:`get()`,It is a conventional method to access a value for a key.
-:func:`dictionary_name.values()`,returns a list of all the values available in a given dictionary.
+:func:`d_nm.values()`,returns a list of all the values available in a given dictionary.
 :func:`str()`,Produces a printable string representation of a dictionary.
 :func:`update()`,Adds dictionary dict2s key-values pairs to dict
 :func:`setdefault()`,Set dict[key]=default if key is not already in dict
