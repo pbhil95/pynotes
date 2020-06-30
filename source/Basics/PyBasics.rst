@@ -57,7 +57,7 @@ In script mode, we type Python program in a file and then use interpreter to exe
 
 .. note::
 
-    | Python, in `interactive mode`_, is good enough to learn, experiment or explore, but its only drawback is that we cannot save the statements and have to retype all the statements once again to re-run them.
+        | Python, in `interactive mode`_, is good enough to learn, experiment or explore, but its only drawback is that we cannot save the statements and have to retype all the statements once again to re-run them.
 
 .. _Python-Scripts-Using-the-Command-Line:
 

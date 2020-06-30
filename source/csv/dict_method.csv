@@ -1,0 +1,15 @@
+:func:`copy()`,They copy() method returns a shallow copy of the dictionary.
+:func:`clear()`,The clear() method removes all items from the dictionary.
+:func:`pop()`,Removes and returns an element from a dictionary having the given key.
+:func:`popitem()`,Removes the arbitrary key-value pair from the dictionary and returns it as tuple.
+:func:`get()`,It is a conventional method to access a value for a key.
+:func:`dictionary_name.values()`,returns a list of all the values available in a given dictionary.
+:func:`str()`,Produces a printable string representation of a dictionary.
+:func:`update()`,Adds dictionary dict2s key-values pairs to dict
+:func:`setdefault()`,Set dict[key]=default if key is not already in dict
+:func:`keys()`,Returns list of dictionary dicts keys
+:func:`items()`,"Returns a list of dicts (key, value) tuple pairs"
+:func:`has_key()`,"Returns true if key in dictionary dict, false otherwise"
+:func:`fromkeys()`,Create a new dictionary with keys from seq and values set to value.
+:func:`type()`,Returns the type of the passed variable.
+:func:`cmp()`,Compares elements of both dict.

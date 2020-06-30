@@ -2163,9 +2163,11 @@ table.table-dark.docutils:not(.field-list) tbody tr:nth-of-type(odd) {
 
 .table-responsive {
   display: block;
-  width: 100%;
+  max-width: 95%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .table-responsive>.table-bordered,
@@ -12264,6 +12266,9 @@ table.docutils.field-list .field-name {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
   overflow: hidden;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .admonition *:last-child {

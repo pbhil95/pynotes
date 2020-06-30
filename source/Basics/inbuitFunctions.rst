@@ -233,7 +233,7 @@ Functions :
    :class:`int` and :class:`float`.  If both arguments are omitted, returns
    ``0j``.
 
-.. note::
+   .. note::
 
       When converting from a string, the string must not contain whitespace
       around the central ``+`` or ``-`` operator.  For example,
@@ -873,14 +873,15 @@ Functions :
    Transform a method into a static method.
 
    A static method does not receive an implicit first argument. To declare a static
-   method, use this idiom::
+   method, use this idiom
+   ::
 
       class C:
           @staticmethod
           def f(arg1, arg2, ...):
           .....
 
-.. seealso:: To learn more about static ,class and instance methods see :doc:`../Class/Static_Instance_ClassMethods`
+   .. seealso:: To learn more about static ,class and instance methods see :doc:`../Class/Static_Instance_ClassMethods`
 
 
 .. _func-str:
