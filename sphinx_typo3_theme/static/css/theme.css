@@ -99,6 +99,12 @@ p {
   text-justify: inter-word;
 }
 
+table p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
