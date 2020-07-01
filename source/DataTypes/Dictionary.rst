@@ -3,7 +3,6 @@ Python Dictionary
 =====================
 
 .. index:: ! Dictionary
-    single : Dictionary
 
 Dictionary
 ===========

@@ -25,7 +25,9 @@ Variable assignment works from left to right. So the following will give you an 
         import keyword
         print(keyword.kwlist)
 
-Rules for variable naming:
+.. _rules-for-variables-naming:
+
+Rules for variable naming
 ===========================
 
 **1. Variables names must start with a letter or an underscore.**

@@ -2,6 +2,8 @@
 Python Operators
 =====================
 
+.. _operators:
+
 Operators
 ==========
 

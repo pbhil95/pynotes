@@ -12698,6 +12698,14 @@ table.docutils.field-list .field-name {
 
 .rst-content .figure .caption {
   font-size: 0.875rem;
+  font-size: 0.875rem;
+  text-align: center;
+  max-width: max-content;
+  margin: 10px auto 10px;
+  background-color: #808284;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 2px;
 }
 
 .rst-content .figure .caption:before {
