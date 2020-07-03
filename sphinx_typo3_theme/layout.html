@@ -114,9 +114,9 @@
             bottom: 90px;
         }
 
-        html {
+        /*html {
             scroll-behavior: smooth;
-        }
+        }*/
     </style>
 </head>
 
@@ -309,7 +309,7 @@
     <!-- footer2 -->
     {%- block footer2 %}{% endblock -%}
     <!-- /footer2 -->
-    <script>
+    <!-- <script>
         let scrollButton = document.getElementById("scroll");
 
         function scrollFunction() {
@@ -330,7 +330,28 @@
             intervalId = setInterval(scrollStep, 16.66)
         }
         scrollButton.addEventListener("click", scrollToTop);
+    </script> -->
+    <script>
+        scrollButton = document.getElementById("scroll");
+        scrollButton.style.display = "none"
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $('#scroll').fadeIn();
+            } else {
+                $('#scroll').fadeOut();
+            }
+        });
     </script>
+
+    <script>
+        $('#scroll').click(function () {
+            $("html,body").animate({
+                scrollTop: 0
+            }, "slow");
+        });
+    </script>
+
     <script>
         let searchButton = document.getElementById("search-icon");
 
