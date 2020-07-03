@@ -1,0 +1,11 @@
+:func:`append()`,Adds an element at the end of the list
+|func-clear|_,Removes all the elements from the list
+|func-copy|_,Returns a copy of the list
+:func:`count()`,Returns the number of elements with the specified value
+:func:`extend()`,"Add the elements of a list (or any iterable), to the end of the current list"
+:func:`index()`,Returns the index of the first element with the specified value
+:func:`insert()`,Adds an element at the specified position
+|func-pop|_,Removes the element at the specified position
+:func:`remove()`,Removes the item with the specified value
+:func:`reverse()`,Reverses the order of the list
+:func:`sort()`,Sorts the list

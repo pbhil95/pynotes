@@ -15,6 +15,8 @@ Welcome to pynotes's
    Basics/TypeConversion
    Class/Static_Instance_ClassMethods
    DataTypes/Dictionary
+   DataTypes/List
+
 
 
 Indices and tables

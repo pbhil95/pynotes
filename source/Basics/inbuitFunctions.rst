@@ -576,6 +576,7 @@ sequence (such as a string, bytes, tuple, list, or range) or a collection
 Rather than being a function, :class:`list` is actually a mutable
 sequence type, as documented in `typesseq-list` and `typesseq`.
 
+.. seealso:: :doc:`../DataTypes/List`
 
 .. function:: locals()
 

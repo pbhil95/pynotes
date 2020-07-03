@@ -72,7 +72,7 @@ Python defines type conversion functions to directly convert one data type to an
 
 * :func:`set()` : This function returns the type after converting to set.
 
-* :func:`list()` : This function is used to convert any data type to a list type.
+* :ref:`list` () : This function is used to convert any data type to a list type.
 
 ::
 
