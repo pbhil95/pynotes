@@ -12,6 +12,7 @@ Welcome to pynotes's
    Basics/Keywords
    Basics/inbuitFunctions
    Basics/LexicalAnalysis
+   Basics/TypeConversion
    Class/Static_Instance_ClassMethods
    DataTypes/Dictionary
 

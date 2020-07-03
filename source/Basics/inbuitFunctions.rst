@@ -518,6 +518,8 @@ read, :exc:`EOFError` is raised.  Example::
    >>> s  # doctest: +SKIP
    "Monty Python's Flying Circus"
 
+.. seealso:: :ref:`Getting-Input-from-User-in-Python`
+
 .. class:: int([x])
   int(x, base=10)
 

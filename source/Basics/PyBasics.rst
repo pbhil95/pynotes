@@ -13,6 +13,7 @@ At the end of this chapter the students will be able to understand:
 * :ref:`Structure-of-the-Python-Program`
 * :ref:`Variables`
 * :ref:`Input-and-Output`
+* :ref:`Getting-Input-from-User-in-Python`
 
 .. index::
    single: Interactive Mode
@@ -356,8 +357,8 @@ correct code:
 
 .. _Input-and-Output:
 
-Input and Output
-==================
+Sep and End in Python
+=======================
 
 .. function:: sep()
 
@@ -416,3 +417,110 @@ The arguments passed to the program can be separated by different values. The de
 
     | **OUTPUT :**
     | Studytonight _ has _ been _ created _ for _STUDENTS
+
+.. _Getting-Input-from-User-in-Python:
+
+Getting Input from User in Python
+====================================
+
+Taking single input
+---------------------
+
+We use :func:`input()` function in Python to get user input.
+
+Python Program - Get String Input from User
+::
+
+    str = input("Enter any string: ")
+    print(str)
+
+Python Program - Get Integer Input from User
+::
+
+    num = int(input("Enter an Integer: "))
+    print(num)
+
+Python Program - Get Float Input from User
+::
+
+    num = float(input("Enter a float value: "))
+    print(num)
+
+.. container:: outputs
+
+    | **OUTPUT :**
+    | Enter any string: pankaj
+    | pankaj
+    |
+    | Enter an Integer: 56
+    | 56
+    |
+    | Enter a float value: 45.87
+    | 45.87
+
+Taking Multiple Input
+-----------------------
+
+.. function:: split()
+
+**Using** :func:`split`
+
+It breaks the given input by the specified separator. If separator is not provided then any white space is a separator.
+
+Taking two inputs at a time
+::
+
+    x, y = input("Enter a two value: ").split() 
+    print("Number of boys: ", x) 
+    print("Number of girls: ", y) 
+
+.. container:: outputs
+
+
+    | **OUTPUT :**
+    | Enter a two value: 6 8
+    | Number of boys:  6
+    | Number of girls:  8
+
+**Using** :func:`list` **comprehension**
+::
+
+    # taking two input at a time 
+    x, y = [int(x) for x in input("Enter two value: ").split()] 
+    print("First Number is: ", x) 
+    print("Second Number is: ", y) 
+    print() 
+    
+    # taking three input at a time 
+    x, y, z = [int(x) for x in input("Enter three value: ").split()] 
+    print("First Number is: ", x) 
+    print("Second Number is: ", y) 
+    print("Third Number is: ", z) 
+    print() 
+    
+    # taking two inputs at a time 
+    x, y = [int(x) for x in input("Enter two value: ").split()] 
+    print("First number is {} and second number is {}".format(x, y)) 
+    print() 
+    
+    # taking multiple inputs at a time  
+    x = [int(x) for x in input("Enter multiple value: ").split()] 
+    print("Number of list is: ", x)  
+
+.. container:: outputs
+
+    | **OUTPUT :**
+    | Enter two value: 7 5
+    | First Number is:  7
+    | Second Number is:  5
+    |
+    | Enter three value: 7 3 9
+    | First Number is:  7
+    | Second Number is:  3
+    | Third Number is:  9
+    |
+    | Enter two value: 5 9
+    | First number is 5 and second number is 9
+    |
+    | Enter multiple value: 4 8 1 8 1
+    | Number of list is:  [4, 8, 1, 8, 1]
