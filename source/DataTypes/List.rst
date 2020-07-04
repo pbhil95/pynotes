@@ -534,7 +534,7 @@ List Methods
 .. csv-table::
    :header: Method,Description
    :widths: 30, 70
-   :file: ../csv/list_methods.csv
+   :file: csv/list_methods.csv
    :align: center 
 
 .. |func-pop| replace:: ``pop()``

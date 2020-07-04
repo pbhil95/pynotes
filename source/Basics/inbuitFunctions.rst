@@ -10,7 +10,7 @@ Functions :
 
 .. csv-table::
    :widths: 50, 50
-   :file: ../csv/inbuiltFunctions.csv
+   :file: csv/inbuiltFunctions.csv
    :align: center 
 
 .. |func-dict| replace:: ``dict()``

@@ -16,6 +16,7 @@ Welcome to pynotes's
    Class/Static_Instance_ClassMethods
    DataTypes/Dictionary
    DataTypes/List
+   DataTypes/Touples
 
 
 

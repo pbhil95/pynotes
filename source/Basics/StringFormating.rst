@@ -177,7 +177,7 @@ Formatting Types
 .. csv-table::
    :header: Type,Description
    :widths: 20, 80
-   :file: ../csv/formmatingtypes.csv
+   :file: csv/formmatingtypes.csv
    :align: center 
 
 .. _`:<`:

@@ -32,7 +32,7 @@ Python has a set of built-in methods that you can use on dictionaries.
 .. csv-table::
    :header: Method,Description
    :widths: 30, 70
-   :file: ../csv/dict_method.csv
+   :file: csv/dict_method.csv
    :align: center 
 
 Accessing Items

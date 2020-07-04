@@ -10,7 +10,7 @@ Python Keywords
 .. csv-table::
    :header: Keyword,Description
    :widths: 30, 70
-   :file: ../csv/keywords.csv
+   :file: csv/keywords.csv
    :align: center 
 
 >>> import keyword
@@ -113,7 +113,7 @@ and, or, not are the :any:`logical-operators` in Python.and will result into Tru
 .. csv-table:: Truth table for and
    :header: A,B,A and B
    :widths: 30,30,40
-   :file: ../csv/and.csv
+   :file: csv/and.csv
    :align: center 
 
 .. _or:
@@ -127,7 +127,7 @@ The truth table for or is given below:
 .. csv-table:: Truth table for or
    :header: A,B,A or B
    :widths: 30,30,40
-   :file: ../csv/or.csv
+   :file: csv/or.csv
    :align: center 
 
 .. _not:
@@ -141,7 +141,7 @@ The truth table for not is given below:
 .. csv-table:: Truth table for not
    :header: A,not A
    :widths: 50,50
-   :file: ../csv/not.csv
+   :file: csv/not.csv
    :align: center 
 
 some example of their usage are given below:

@@ -1,0 +1,3 @@
+T[2] ,'Python' ,Offsets start at zero
+T[-2] ,'Java' ,Negative: count from the right
+T[1:] ,"('Java', 'Python') ",Slicing fetches sections
