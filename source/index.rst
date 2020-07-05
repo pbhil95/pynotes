@@ -17,6 +17,7 @@ Welcome to pynotes's
    DataTypes/Dictionary
    DataTypes/List
    DataTypes/Touples
+   DataTypes/Set
 
 
 

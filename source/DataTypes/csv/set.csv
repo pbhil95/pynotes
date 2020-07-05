@@ -1,0 +1,16 @@
+|set-pop|_,It adds an item to the set. It has no effect if the item is already present in the set.
+|set-clear|_,It deletes all the items from the set.
+|set-copy|_,It returns a shallow copy of the set.
+:func:`difference_update()`,It modifies this set by removing all the items that are also present in the specified sets.
+:func:`discard()`,It removes the specified item from the set.
+:func:`intersection()`,It returns a new set that contains only the common elements of both the sets. (all the sets if more than two are specified).
+:func:`intersection_update()`,It removes the items from the original set that are not present in both the sets (all the sets if more than one are specified).
+:func:`isdisjoint()`,Return True if two sets have a null intersection.
+:func:`issubset()`,Report whether another set contains this set.
+|set-issubset|_,Report whether this set contains another set.
+|set-pop|_,Remove and return an arbitrary set element that is the last element of the set. Raises KeyError if the set is empty.
+|set-remove|_,"Remove an element from a set; it must be a member. If the element is not a member, raise a KeyError."
+:func:`symmetric_difference()`,"Remove an element from a set; it must be a member. If the element is not a member, raise a KeyError."
+:func:`symmetric_difference_update()`,Update a set with the symmetric difference of itself and another.
+:func:`union()`,Return the union of sets as a new set.
+|set-update|_,Update a set with the union of itself and others.
