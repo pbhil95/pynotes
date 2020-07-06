@@ -18,6 +18,7 @@ Welcome to pynotes's
    DataTypes/List
    DataTypes/Touples
    DataTypes/Set
+   DataTypes/Stack_Queue
 
 
 

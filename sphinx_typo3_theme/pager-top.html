@@ -1,0 +1,33 @@
+{% if next or prev -%}
+<style>
+    #pagination-top {
+        margin-bottom: -1rem;
+    }
+
+    .page-link {
+        padding: 0.20rem 0.35rem;
+        color: white;
+        background-color: #ff8700;
+        border: 1px solid white;
+    }
+</style>
+<nav aria-label="Page navigation example">
+    <ul id="pagination-top" class="pagination justify-content-end">
+        {%- if prev %}
+        <li class="page-item">
+            <a id="page-link-prev" class="page-link" href="{{ prev.link|e }}" title="Accesskey Alt(+Shift)+p">
+                Previous
+            </a>
+        </li>
+        {%- endif %}
+        {%- if next %}
+        <li class="page-item">
+            <a id="page-link-next" class="page-link" href="{{ next.link|e }}" title="Accesskey Alt(+Shift)+n">
+                Next
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>
+
+{%- endif %}

@@ -238,7 +238,9 @@
                         <!-- breadcrumbs.html -->
                         {% include "breadcrumbs.html" %}
                         <!-- /breadcrumbs.html -->
-                        <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+                        {% include "pager-top.html" %}
+
+                        <div role="main" class="document" itemscope="itemscope" itemtype="">
                             <div itemprop="articleBody">
                                 <!-- body -->
                                 {%- block body %}
