@@ -14,6 +14,8 @@ Welcome to pynotes's
    Basics/LexicalAnalysis
    Basics/TypeConversion
    Class/Static_Instance_ClassMethods
+   Class/Class_Basics
+   Class/Property_Decorators
    DataTypes/Dictionary
    DataTypes/List
    DataTypes/Touples
