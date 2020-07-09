@@ -2,7 +2,7 @@ Welcome to pynotes's
 =====================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Contents:
 
    Basics/PyBasics
@@ -16,6 +16,7 @@ Welcome to pynotes's
    Class/Static_Instance_ClassMethods
    Class/Class_Basics
    Class/Property_Decorators
+   Class/SelfInPython
    DataTypes/Dictionary
    DataTypes/List
    DataTypes/Touples

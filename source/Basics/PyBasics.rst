@@ -108,7 +108,7 @@ if you want to add the output of consecutive executions to the end of output.txt
 Structure of the Python’s Program
 ===================================
 
-.. figure:: img/structureofprogram.jpg
+.. figure:: img/structureofprogram.png
     :width: 95%
     :align: center
     :alt: Structure of the Python’s Program
