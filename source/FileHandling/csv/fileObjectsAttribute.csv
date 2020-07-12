@@ -1,0 +1,3 @@
+file.closed ,"Returnstrue if file is closed, false otherwise."
+file.mode ,Returns access mode with which file was opened.
+file.name ,Returns name of the file.

@@ -22,6 +22,8 @@ Welcome to pynotes's
    DataTypes/Touples
    DataTypes/Set
    DataTypes/Stack_Queue
+   FileHandling/FileHandlingBasics
+   FileHandling/FileObjectsMethods
 
 
 
