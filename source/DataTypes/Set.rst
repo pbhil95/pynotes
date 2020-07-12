@@ -1,5 +1,5 @@
 ================
-Sets in Python
+Python Sets
 ================
 
 Learning Objectives:
