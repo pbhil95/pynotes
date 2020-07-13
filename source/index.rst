@@ -17,6 +17,7 @@ Welcome to pynotes's
    Class/Class_Basics
    Class/Property_Decorators
    Class/SelfInPython
+   Class/Inheritance
    DataTypes/Dictionary
    DataTypes/List
    DataTypes/Touples
