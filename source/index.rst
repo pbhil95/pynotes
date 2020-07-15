@@ -2,7 +2,7 @@ Welcome to pynotes's
 =====================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    Basics/PyBasics
@@ -25,6 +25,9 @@ Welcome to pynotes's
    DataTypes/Stack_Queue
    FileHandling/FileHandlingBasics
    FileHandling/FileObjectsMethods
+   ExceptionsHandling/Basics
+   ExceptionsHandling/TypesOfErrors
+   ExceptionsHandling/BuiltInErrors
 
 
 
