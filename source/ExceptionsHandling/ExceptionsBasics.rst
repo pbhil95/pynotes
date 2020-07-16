@@ -3,7 +3,7 @@ Python Exceptions: An Introduction
 ======================================
 
 .. figure:: img/exception1.png
-    :width: 60%
+    :width: 80%
     :align: center
     :alt: Exception
     :figclass: align-center
@@ -44,7 +44,7 @@ Raising an Exception
 ======================
 
 .. figure:: img/exception2.png
-    :width: 60%
+    :width: 80%
     :align: center
     :alt: Raising an Exception
     :figclass: align-center
@@ -78,7 +78,7 @@ The AssertionError Exception
 ==============================
 
 .. figure:: img/exception3.png
-    :width: 60%
+    :width: 80%
     :align: center
     :alt: AssertionError Exception
     :figclass: align-center
@@ -109,7 +109,7 @@ The try and except Block: Handling Exceptions
 =====================================================
 
 .. figure:: img/exception4.png
-    :width: 60%
+    :width: 80%
     :align: center
     :alt: try and except Block
     :figclass: align-center
@@ -258,7 +258,7 @@ The else Clause
 =======================
 
 .. figure:: img/exception5.png
-    :width: 60%
+    :width: 80%
     :align: center
     :alt: The else Clause
     :figclass: align-center
@@ -313,7 +313,7 @@ Cleaning Up After Using finally
 ==================================
 
 .. figure:: img/exception6.png
-    :width: 60%
+    :width: 80%
     :align: center
     :alt: finally
     :figclass: align-center
