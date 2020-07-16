@@ -5,7 +5,7 @@ Built-in Functions
 The Python interpreter has a number of functions and types built into it that
 are always available.  They are listed here in alphabetical order.
 
-Functions :
+Functions
 ============
 
 .. csv-table::
@@ -180,7 +180,7 @@ idiom::
    @classmethod
    def f(cls, arg1, arg2, ...): ...
 
-.. seealso:: To learn more about static ,class and instance methods see :doc:`../Class/Static_Instance_ClassMethods`
+.. seealso:: To learn more about static ,class and instance methods see :doc:`../ObjectOrientedProgramming/Static_Instance_ClassMethods`
 
 .. function:: compile(source, filename, mode, flags=0, dont_inherit=False, optimize=-1)
 
@@ -913,7 +913,7 @@ method, use this idiom
    def f(arg1, arg2, ...):
  .....
 
-.. seealso:: To learn more about static ,class and instance methods see :doc:`../Class/Static_Instance_ClassMethods`
+.. seealso:: To learn more about static ,class and instance methods see :doc:`../ObjectOrientedProgramming/Static_Instance_ClassMethods`
 
 
 .. _func-str:

@@ -421,6 +421,8 @@ This is caught by our try…except block and we return None. We could have also 
     if num == 0:
         raise ZeroDivisionError('cannot divide')
 
+.. seealso:: :doc:`../ExceptionsHandling/RaiseKeyword`
+
 .. _finally:
 
 finally

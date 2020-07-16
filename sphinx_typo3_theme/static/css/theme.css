@@ -12210,7 +12210,7 @@ div[class^="highlight-"] pre {
 }
 
 .section {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   margin-bottom: 2.5rem;
 }
 
@@ -13036,4 +13036,20 @@ ul[class*="horizbuttons-"][class*="-striking-"]>li {
 
 .rst-content .line-block {
   margin-bottom: 0px !important;
+}
+
+.toctree-l1 {
+  background-image: url(../img/bullet1.png);
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+.toctree-l2 {
+  background-image: url(../img/bullet4.png);
+  background-size: 1.7rem 1.4rem;
+  background-repeat: no-repeat;
+  list-style-type: none;
+  padding-left: 30px;
 }

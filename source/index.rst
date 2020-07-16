@@ -1,33 +1,16 @@
-Welcome to pynotes's
-=====================
+Python Topics
+================
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   Basics/PyBasics
-   Basics/PythonOperators
-   Basics/StringFormating
-   Basics/VariableAssignment
-   Basics/Keywords
-   Basics/inbuitFunctions
-   Basics/LexicalAnalysis
-   Basics/TypeConversion
-   Class/Static_Instance_ClassMethods
-   Class/Class_Basics
-   Class/Property_Decorators
-   Class/SelfInPython
-   Class/Inheritance
-   DataTypes/Dictionary
-   DataTypes/List
-   DataTypes/Touples
-   DataTypes/Set
-   DataTypes/Stack_Queue
-   FileHandling/FileHandlingBasics
-   FileHandling/FileObjectsMethods
-   ExceptionsHandling/Basics
-   ExceptionsHandling/TypesOfErrors
-   ExceptionsHandling/BuiltInErrors
+   Basics/Basicsindex
+   DataTypes/DataTypesIndex
+   FileHandling/FileHandlingIndex
+   ObjectOrientedProgramming/OopsIndex
+   ExceptionsHandling/ExceptionsHandlingIndex
+
 
 
 

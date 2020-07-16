@@ -72,6 +72,8 @@ When you run this code, the output will be the following:
 
 The program comes to a halt and displays our exception to screen, offering clues about what went wrong.
 
+.. seealso:: :doc:`RaiseKeyword`
+
 The AssertionError Exception
 ==============================
 
