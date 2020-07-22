@@ -18,7 +18,7 @@ Example
 -----------
 
 .. figure:: img/bar1.png
-    :width: 70%
+    :width: 80%
     :align: center
 
 ::
@@ -46,7 +46,7 @@ Grouped bar chart with labels
 ================================
 
 .. figure:: img/groupBar.png
-    :width: 70%
+    :width: 80%
     :align: center
 
 ::
@@ -97,7 +97,7 @@ Stacked bar chart
 ======================
 
 .. figure:: img/stacked_bar.png
-    :width: 70%
+    :width: 80%
     :align: center
 
 ::
@@ -128,7 +128,7 @@ Horizontal bar chart
 =======================
 
 .. figure:: img/horizontal_bar.png
-    :width: 70%
+    :width: 80%
     :align: center
 
 ::

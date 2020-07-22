@@ -9,7 +9,7 @@ Example 1
 ------------
 
 .. figure:: img/line1.png
-    :width: 70%
+    :width: 80%
     :align: center
 
 ::
@@ -30,7 +30,7 @@ Example 2
 -------------
 
 .. figure:: img/line2.png
-    :width: 70%
+    :width: 80%
     :align: center
 
 ::

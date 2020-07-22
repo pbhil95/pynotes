@@ -15,7 +15,7 @@ Parts of a Figure
 Now, let's have a deeper look at the components of a Matplotlib figure.
 
 .. figure:: img/Matplotlib3.PNG
-    :width: 70%
+    :width: 80%
     :align: center
 
 Figure
@@ -85,7 +85,7 @@ OO-style
     plt.show()
 
 .. figure:: img/ooPlot.png
-    :width: 70%
+    :width: 80%
     :align: center
     
 pyplot-style
