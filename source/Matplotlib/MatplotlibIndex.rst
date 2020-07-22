@@ -1,4 +1,4 @@
-Python Data Visualization Using Matplotlib
+Data Visualization Using Python Matplotlib
 ==============================================
 
 .. toctree::
