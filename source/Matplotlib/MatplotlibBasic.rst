@@ -104,3 +104,7 @@ pyplot-style
     plt.title("Simple Plot")
     plt.legend()
     plot.show()
+
+.. note::
+
+    the **pyplot** API is generally less-flexible than the **object-oriented** API. Most of the function calls you see here can also be called as methods from an ``Axes`` object.

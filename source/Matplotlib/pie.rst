@@ -18,7 +18,7 @@ Note about the custom start angle:
 The default startangle is **0**, which would start the "Frogs" slice on the positive x-axis. This example sets **startangle = 90** such that everything is rotated counter-clockwise by 90 degrees, and the frog slice starts on the positive y-axis.
 
 .. figure:: img/pie.png
-    :width: 70%
+    :width: 80%
     :align: center
 
 ::
