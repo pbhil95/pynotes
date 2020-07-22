@@ -10,6 +10,7 @@ Python Topics
    FileHandling/FileHandlingIndex
    ObjectOrientedProgramming/OopsIndex
    ExceptionsHandling/ExceptionsHandlingIndex
+   Matplotlib/MatplotlibIndex
 
 
 
