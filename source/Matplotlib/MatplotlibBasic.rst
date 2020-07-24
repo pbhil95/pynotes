@@ -1,3 +1,5 @@
+.. _MatplotlibTutorial:
+
 ======================================
 Python Introduction to Matplotlib
 ======================================

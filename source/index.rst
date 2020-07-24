@@ -11,6 +11,7 @@ Python Topics
    ObjectOrientedProgramming/OopsIndex
    ExceptionsHandling/ExceptionsHandlingIndex
    Matplotlib/MatplotlibIndex
+   NumPy/numpyIndex
 
 
 
