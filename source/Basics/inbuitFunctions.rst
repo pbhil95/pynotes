@@ -1,3 +1,5 @@
+.. _built-in-function:
+
 ==================
 Built-in Functions
 ==================
