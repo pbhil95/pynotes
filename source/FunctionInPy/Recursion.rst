@@ -18,7 +18,7 @@ The following image shows the working of a recursive function called recurse.
 Python Recursive Function
 
 .. figure:: img/recursion-function1.png
-    :width: 40%
+    :width: 50%
     :align: center
 
     Recursive Function in Python
@@ -67,7 +67,7 @@ Each function multiplies the number with the factorial of the number below it un
 Let's look at an image that shows a step-by-step process of what is going on:
 
 .. figure:: img/recursion-function2.png
-    :width: 45%
+    :width: 60%
     :align: center
 
     Working of a recursive factorial function

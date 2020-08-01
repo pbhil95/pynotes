@@ -31,7 +31,7 @@ You can define functions to provide the required functionality. Here are simple 
 * The statement ``return [expression]`` exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
 
 .. figure:: img/function-works.jpg
-    :width: 40%
+    :width: 50%
     :align: center
 
     Working of functions in Python
