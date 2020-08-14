@@ -9,3 +9,5 @@ Python Function
    variableArguments
    Recursion
    PartialFunction
+   Module
+   Package

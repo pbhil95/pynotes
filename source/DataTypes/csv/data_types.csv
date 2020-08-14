@@ -1,0 +1,7 @@
+Text ,str
+Numeric ,"int, float, complex"
+Sequence ,"list, tuple, range"
+Mapping,dict
+Set,"set, frozenset"
+Boolean,bool
+Binary,"bytes, bytearray, memoryview"

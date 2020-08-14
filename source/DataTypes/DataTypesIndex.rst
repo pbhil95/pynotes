@@ -5,6 +5,7 @@ Python Data Types
    :maxdepth: 2
    :caption: Contents:
    
+   BasicDataTypes
    List
    Touples
    Set
