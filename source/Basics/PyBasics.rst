@@ -68,16 +68,14 @@ In script mode, we type Python program in a file and then use interpreter to exe
 Python Scripts Using the Command-Line
 ======================================
 
-.. code-block:: 
-    :caption: shell
+::
 
     $ python sum.py
     Hello World!
 
 **Or**
 
-.. code-block::
-    :caption: shell
+::
 
     $ sum.py
     Hello World!
@@ -89,16 +87,14 @@ Redirecting the Output
 
 Sometimes it’s useful to save the output of a script for later analysis. Here’s how you can do that:
 
-.. code-block::
-    :caption: shell
+::
 
     $ sum.py > output.txt
     Hello World!
 
 if you want to add the output of consecutive executions to the end of output.txt, then you must use two angle brackets (>>) instead of one, just like this:
 
-.. code-block::
-    :caption: shell
+::
 
     $ sum.py >> output.txt
     Hello World!
