@@ -7,9 +7,10 @@ Python Basics
 
    PyBasics
    LexicalAnalysis
-   PythonOperators
-   StringFormating
    VariableAssignment
+   PythonOperators
+   PyString
+   StringFormating
    Keywords
    inbuitFunctions
    TypeConversion
