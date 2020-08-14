@@ -71,14 +71,12 @@ Python Scripts Using the Command-Line
 ::
 
     $ python sum.py
-    Hello World!
 
 **Or**
 
 ::
 
     $ sum.py
-    Hello World!
 
 *If this doesn’t work right, maybe you’ll need to check your system PATH, your Python installation, the way you created the sum.py script, the place where you saved it, and so on.*
 
@@ -90,14 +88,12 @@ Sometimes it’s useful to save the output of a script for later analysis. Here�
 ::
 
     $ sum.py > output.txt
-    Hello World!
 
 if you want to add the output of consecutive executions to the end of output.txt, then you must use two angle brackets (>>) instead of one, just like this:
 
 ::
 
     $ sum.py >> output.txt
-    Hello World!
 
 .. _Structure-of-the-Python-Program:
 
