@@ -5,12 +5,8 @@ Python Basics
    :maxdepth: 2
    :caption: Contents:
 
+   PythonIntro
    PyBasics
    LexicalAnalysis
-   VariableAssignment
-   PythonOperators
-   PyString
-   StringFormating
    Keywords
-   inbuitFunctions
-   TypeConversion
+   PythonOperators

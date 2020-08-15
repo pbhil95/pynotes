@@ -1,6 +1,6 @@
-==============
-Python Basic
-==============
+============================
+Python Programming Overview
+============================
 
 Learning Objectives:
 ====================
@@ -10,10 +10,10 @@ At the end of this chapter the students will be able to understand:
 * :ref:`interactive-mode`
 * :ref:`script-mode`
 * :ref:`Python-Scripts-Using-the-Command-Line`
-* :ref:`Structure-of-the-Python-Program`
 * :ref:`Variables`
 * :ref:`Input-and-Output`
 * :ref:`Getting-Input-from-User-in-Python`
+* :ref:`Structure-of-the-Python-Program`
 
 .. index::
    single: Interactive Mode
@@ -94,6 +94,244 @@ if you want to add the output of consecutive executions to the end of output.txt
 ::
 
     $ sum.py >> output.txt
+
+.. index::
+   single: Variables
+
+.. _Variables:
+
+Variables
+===========
+
+Variables are exactly what the name implies – their value can vary, i.e., you can store anything using a variable. Variables are just parts of your computer’s memory where you store some information.
+
+Named labels, whose values can be manipulated during program run, are called Variables.
+
+Creating a Variable:
+---------------------
+
+Python variables are created by assigning value of desired type to them, example: to create a numeric variable, assign a numeric value to variable_name; to create a sting variable, assign a string value to variable_name and so on.
+
+Example:
+::
+
+    X=10.8   # variable created of numeric (floating point) type
+
+    Y = 90   # variable created of numeric (integer) type
+
+    Name = "My Name"   # variable created of string type
+
+Multiple Assignments:
+----------------------
+
+Assigning same value to multiple variables:
+::
+
+    x = y = z = 100
+
+It will assign value 100 to all three variables x, y and z.
+
+Assigning multiple value to multiple variables
+::
+
+    p, q, r = 10, 20, 30
+
+It will assign the value order wise that is value 10 assign to variable p, value 20 assign to variable q and value 30 assign to variable r.
+
+**IMPORTANT NOTE:**
+
+A variable is defined only when you assign some value to it. Using an undefined variable in an expression / statement cause error.
+
+Example:
+::
+
+    print (a)  # Error name 'a' not defined
+
+    a = 20                                   
+
+    print (a)
+
+correct code:
+::
+
+    a=10
+
+    print (a)
+
+    a = 20
+
+    print a)
+
+
+.. _Input-and-Output:
+
+Sep and End in Python
+=======================
+
+.. function:: sep()
+
+The ``end`` parameter is used to append any string at the end of the output of the print statement in python.
+
+By default, the print method ends with a ``newline``.
+
+::
+
+    print("Studytonight",)
+    print("is awesome")
+
+    print("Studytonight", end= "\n")
+    print("is awesome")
+
+.. container:: outputs
+
+    | **OUTPUT :**
+    | Studytonight
+    | is awesome
+    | Studytonight
+    | is awesome
+
+::
+
+    print("Studytonight", end=' ')
+    print("is awesome")
+
+.. container:: outputs
+
+    | **OUTPUT :**   
+    | Studytonight is awesome
+
+.. function:: end()
+
+The arguments passed to the program can be separated by different values. The default value for sep is whitespace. 
+
+::
+
+    print("Study", "tonight", sep = '')
+    print("Study", "tonight", sep = ' & ')
+
+.. container:: outputs
+
+    | **OUTPUT :**
+    | Studytonight
+    | Study & tonight
+
+.. note:: The :func:`sep` parameter, used in conjunction with the :func:`end` parameter is generally used in production code to print data in a readable fashion.
+
+::
+
+    print("Studytonight","has","been","created","for", sep = " _ ", end=" _STUDENTS")
+
+.. container:: outputs
+
+    | **OUTPUT :**
+    | Studytonight _ has _ been _ created _ for _STUDENTS
+
+.. _Getting-Input-from-User-in-Python:
+
+Getting Input from User in Python
+====================================
+
+Taking single input
+---------------------
+
+We use :func:`input()` function in Python to get user input.
+
+Python Program - Get String Input from User
+::
+
+    str = input("Enter any string: ")
+    print(str)
+
+Python Program - Get Integer Input from User
+::
+
+    num = int(input("Enter an Integer: "))
+    print(num)
+
+Python Program - Get Float Input from User
+::
+
+    num = float(input("Enter a float value: "))
+    print(num)
+
+.. container:: outputs
+
+    | **OUTPUT :**
+    | Enter any string: pankaj
+    | pankaj
+    |
+    | Enter an Integer: 56
+    | 56
+    |
+    | Enter a float value: 45.87
+    | 45.87
+
+Taking Multiple Input
+-----------------------
+
+.. function:: split()
+
+**Using** :func:`split`
+
+It breaks the given input by the specified separator. If separator is not provided then any white space is a separator.
+
+Taking two inputs at a time
+::
+
+    x, y = input("Enter a two value: ").split() 
+    print("Number of boys: ", x) 
+    print("Number of girls: ", y) 
+
+.. container:: outputs
+
+
+    | **OUTPUT :**
+    | Enter a two value: 6 8
+    | Number of boys:  6
+    | Number of girls:  8
+
+**Using** :func:`list` **comprehension**
+::
+
+    # taking two input at a time 
+    x, y = [int(x) for x in input("Enter two value: ").split()] 
+    print("First Number is: ", x) 
+    print("Second Number is: ", y) 
+    print() 
+    
+    # taking three input at a time 
+    x, y, z = [int(x) for x in input("Enter three value: ").split()] 
+    print("First Number is: ", x) 
+    print("Second Number is: ", y) 
+    print("Third Number is: ", z) 
+    print() 
+    
+    # taking two inputs at a time 
+    x, y = [int(x) for x in input("Enter two value: ").split()] 
+    print("First number is {} and second number is {}".format(x, y)) 
+    print() 
+    
+    # taking multiple inputs at a time  
+    x = [int(x) for x in input("Enter multiple value: ").split()] 
+    print("Number of list is: ", x)  
+
+.. container:: outputs
+
+    | **OUTPUT :**
+    | Enter two value: 7 5
+    | First Number is:  7
+    | Second Number is:  5
+    |
+    | Enter three value: 7 3 9
+    | First Number is:  7
+    | Second Number is:  3
+    | Third Number is:  9
+    |
+    | Enter two value: 5 9
+    | First number is 5 and second number is 9
+    |
+    | Enter multiple value: 4 8 1 8 1
+    | Number of list is:  [4, 8, 1, 8, 1]
 
 .. _Structure-of-the-Python-Program:
 
@@ -275,244 +513,3 @@ Another Example:
 .. figure:: img/indent.png
     :width: 95%
     :align: center
-
-.. index::
-   single: Variables
-
-.. _Variables:
-
-Variables
-===========
-
-Variables are exactly what the name implies – their value can vary, i.e., you can store anything using a variable. Variables are just parts of your computer’s memory where you store some information.
-
-Named labels, whose values can be manipulated during program run, are called Variables.
-
-Creating a Variable:
----------------------
-
-Python variables are created by assigning value of desired type to them, example: to create a numeric variable, assign a numeric value to variable_name; to create a sting variable, assign a string value to variable_name and so on.
-
-Example:
-::
-
-    X=10.8   # variable created of numeric (floating point) type
-
-    Y = 90   # variable created of numeric (integer) type
-
-    Name = "My Name"   # variable created of string type
-
-Multiple Assignments:
-----------------------
-
-Assigning same value to multiple variables:
-::
-
-    x = y = z = 100
-
-It will assign value 100 to all three variables x, y and z.
-
-Assigning multiple value to multiple variables
-::
-
-    p, q, r = 10, 20, 30
-
-It will assign the value order wise that is value 10 assign to variable p, value 20 assign to variable q and value 30 assign to variable r.
-
-**IMPORTANT NOTE:**
-
-A variable is defined only when you assign some value to it. Using an undefined variable in an expression / statement cause error.
-
-Example:
-::
-
-    print (a)  # Error name 'a' not defined
-
-    a = 20                                   
-
-    print (a)
-
-correct code:
-::
-
-    a=10
-
-    print (a)
-
-    a = 20
-
-    print a)
-
-.. seealso::
-
-    To learn more about variable assignments see.. :doc:`VariableAssignment`
-
-.. _Input-and-Output:
-
-Sep and End in Python
-=======================
-
-.. function:: sep()
-
-The ``end`` parameter is used to append any string at the end of the output of the print statement in python.
-
-By default, the print method ends with a ``newline``.
-
-::
-
-    print("Studytonight",)
-    print("is awesome")
-
-    print("Studytonight", end= "\n")
-    print("is awesome")
-
-.. container:: outputs
-
-    | **OUTPUT :**
-    | Studytonight
-    | is awesome
-    | Studytonight
-    | is awesome
-
-::
-
-    print("Studytonight", end=' ')
-    print("is awesome")
-
-.. container:: outputs
-
-    | **OUTPUT :**   
-    | Studytonight is awesome
-
-.. function:: end()
-
-The arguments passed to the program can be separated by different values. The default value for sep is whitespace. 
-
-::
-
-    print("Study", "tonight", sep = '')
-    print("Study", "tonight", sep = ' & ')
-
-.. container:: outputs
-
-    | **OUTPUT :**
-    | Studytonight
-    | Study & tonight
-
-.. note:: The :func:`sep` parameter, used in conjunction with the :func:`end` parameter is generally used in production code to print data in a readable fashion.
-
-::
-
-    print("Studytonight","has","been","created","for", sep = " _ ", end=" _STUDENTS")
-
-.. container:: outputs
-
-    | **OUTPUT :**
-    | Studytonight _ has _ been _ created _ for _STUDENTS
-
-.. _Getting-Input-from-User-in-Python:
-
-Getting Input from User in Python
-====================================
-
-Taking single input
----------------------
-
-We use :func:`input()` function in Python to get user input.
-
-Python Program - Get String Input from User
-::
-
-    str = input("Enter any string: ")
-    print(str)
-
-Python Program - Get Integer Input from User
-::
-
-    num = int(input("Enter an Integer: "))
-    print(num)
-
-Python Program - Get Float Input from User
-::
-
-    num = float(input("Enter a float value: "))
-    print(num)
-
-.. container:: outputs
-
-    | **OUTPUT :**
-    | Enter any string: pankaj
-    | pankaj
-    |
-    | Enter an Integer: 56
-    | 56
-    |
-    | Enter a float value: 45.87
-    | 45.87
-
-Taking Multiple Input
------------------------
-
-.. function:: split()
-
-**Using** :func:`split`
-
-It breaks the given input by the specified separator. If separator is not provided then any white space is a separator.
-
-Taking two inputs at a time
-::
-
-    x, y = input("Enter a two value: ").split() 
-    print("Number of boys: ", x) 
-    print("Number of girls: ", y) 
-
-.. container:: outputs
-
-
-    | **OUTPUT :**
-    | Enter a two value: 6 8
-    | Number of boys:  6
-    | Number of girls:  8
-
-**Using** :func:`list` **comprehension**
-::
-
-    # taking two input at a time 
-    x, y = [int(x) for x in input("Enter two value: ").split()] 
-    print("First Number is: ", x) 
-    print("Second Number is: ", y) 
-    print() 
-    
-    # taking three input at a time 
-    x, y, z = [int(x) for x in input("Enter three value: ").split()] 
-    print("First Number is: ", x) 
-    print("Second Number is: ", y) 
-    print("Third Number is: ", z) 
-    print() 
-    
-    # taking two inputs at a time 
-    x, y = [int(x) for x in input("Enter two value: ").split()] 
-    print("First number is {} and second number is {}".format(x, y)) 
-    print() 
-    
-    # taking multiple inputs at a time  
-    x = [int(x) for x in input("Enter multiple value: ").split()] 
-    print("Number of list is: ", x)  
-
-.. container:: outputs
-
-    | **OUTPUT :**
-    | Enter two value: 7 5
-    | First Number is:  7
-    | Second Number is:  5
-    |
-    | Enter three value: 7 3 9
-    | First Number is:  7
-    | Second Number is:  3
-    | Third Number is:  9
-    |
-    | Enter two value: 5 9
-    | First number is 5 and second number is 9
-    |
-    | Enter multiple value: 4 8 1 8 1
-    | Number of list is:  [4, 8, 1, 8, 1]

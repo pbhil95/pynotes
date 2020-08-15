@@ -9,6 +9,10 @@ In programming, data type is an important concept.
 
 Variables can store data of different types, and different types can do different things.
 
+.. figure:: img/data_type.png
+    :width: 60%
+    :align: center
+
 Python has the following data types built-in by default, in these categories:
 
 .. csv-table::

@@ -6,6 +6,7 @@ Python Function
    :caption: Contents:
 
    FnBasics
+   inbuitFunctions
    variableArguments
    Recursion
    PartialFunction

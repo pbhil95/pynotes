@@ -7,6 +7,7 @@ Python Topics
 
    Basics/Basicsindex
    DataTypes/DataTypesIndex
+   FlowControl/FlowControlIndex
    FunctionInPy/FunctionIndex
    FileHandling/FileHandlingIndex
    ObjectOrientedProgramming/OopsIndex

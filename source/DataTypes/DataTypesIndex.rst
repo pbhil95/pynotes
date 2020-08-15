@@ -6,8 +6,11 @@ Python Data Types
    :caption: Contents:
    
    BasicDataTypes
+   PyString
+   StringFormating
    List
    Touples
    Set
    Stack_Queue
    Dictionary
+   TypeConversion
